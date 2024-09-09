@@ -36,3 +36,24 @@
     transform: rotate(360deg);
   }
 }
+
+.bg {
+  background: linear-gradient(90deg, rgb(26, 26, 26) 24.97%, rgb(26, 26, 26) 38.3%, rgba(26, 26, 26, 0.04) 97.47%, rgb(26, 26, 26) 100%);
+  background-size: cover;
+  background-position: center;
+  min-height: 480px;
+}
+ 
+.moviedata .movietype span {
+  display: inline-flex;
+  align-items: center;
+  background-color: rgb(229, 229, 229);
+  padding: 2px 8px;
+}
+
+.seat.selected {
+  background-color: green;
+}
+.seat {
+  background-color: lightgray;
+}
